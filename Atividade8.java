@@ -12,12 +12,12 @@ public class Atividade8 {
         System.out.println("Digite um numero");
         y = ler.nextDouble();
 
-       while(valordois <= 0){
+       while(y <= 0){
             System.out.println("Por favor informe outro valor: ");
             // System.out.print("Informe o segundo valor: ");
-            valordois = in.nextDouble();
+            y = in.nextDouble();
         }
 
-         System.out.println(valor/valordois);
+         System.out.println(x/y);
     }
 }
